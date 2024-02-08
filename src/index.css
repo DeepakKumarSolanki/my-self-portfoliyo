@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family-Roboto+Slab:wght@500&display=swap");
+
+:root{
+    --yellow-theme-background-color:#1d1d1d;
+    --yellow-theme-main-background-color:#ffdd40;
+    --yello-theme-sub-text-color:#ffffff;
+    --yellow-theme-nav-background-color:#181818;
+
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    background:#1d1d1d ;
+    width: 100%;
+height: 100vh;
+/* animation: changeBg 10s linear infinite; */
+}
+
+/* @keyframes changeBg {
+    0% {
+         background-color: rgb(173, 238, 108);
+        }
+
+    20%{
+background-color: #c6b04c;
+    }
+    40%{
+background-color: #4cc6ab;
+    }
+    60%{
+background-color: #c77847;
+    }
+    80%{
+background-color: #be5782;
+    }
+    100%{
+background-color:rgb(173, 238, 108);
+    }
+} */
+
+#root{
+    height: 100%;
+}
